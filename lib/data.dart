@@ -73,7 +73,7 @@ List<String> highlights = [
 ];
 
 String description =
-    'Are you looking for a headset that features eye-catching aesthetics and dual modes? If yes, bring home the boAt Rockerz 450 that has an AUX-mode as well as the Bluetooth connectivity feature. The 40-mm drivers and adjustable earcups ensure you enjoy a comfortable listening experience that is immersive.';
+    'Você está procurando um fone de ouvido com estética atraente e modos duplos? Se sim, leve para casa o boAt Rockerz 450 que possui um modo AUX, bem como o recurso de conectividade Bluetooth. Os drivers de 40 mm e os fones de ouvido ajustáveis ​​garantem uma experiência de audição confortável e envolvente.';
 
 /// Models
 

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'animated_product_padeadvance.dart';
+import 'animated_product_page_advance.dart';
 
 void main() {
   runApp(MaterialApp(
