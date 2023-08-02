@@ -93,7 +93,7 @@ class PriceAndRatingRow extends StatelessWidget {
 
           /// Current Price
           Text(
-            "\$$price",
+            "R\$ $price,98",
             textScaleFactor: 1.6,
             style: const TextStyle(
                 color: Colors.black, fontWeight: FontWeight.w900),
@@ -108,7 +108,7 @@ class PriceAndRatingRow extends StatelessWidget {
           ),
           const Icon(
             Icons.star,
-            color: Colors.yellow,
+            color: Color.fromARGB(255, 255, 81, 0),
           )
         ],
       ),

@@ -93,7 +93,7 @@ class AnimatedProductPageAdvanceState extends State<AnimatedProductPageAdvance>
   Widget build(BuildContext context) {
     return Scaffold(
         extendBodyBehindAppBar: true,
-        backgroundColor: Colors.black,
+        backgroundColor: Color.fromARGB(255, 34, 34, 34),
         appBar: appbar(),
         body: Stack(
           children: [
@@ -190,7 +190,7 @@ class AnimatedProductPageAdvanceState extends State<AnimatedProductPageAdvance>
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: <Widget>[
                             Text(
-                              " 3 Available Colors :  ",
+                              " Cores disponíveis :  ",
                               textScaleFactor: 1.3,
                               style: TextStyle(
                                   color: Colors.black, fontWeight: FontWeight.w500),
@@ -272,7 +272,14 @@ class AnimatedProductPageAdvanceState extends State<AnimatedProductPageAdvance>
                   height: 50,
                   width: MediaQuery.of(context).size.width,
                   decoration: BoxDecoration(
-                      color: Colors.black, boxShadow: [BoxShadow(color: Colors.white24)]),
+                      color: Colors.white, boxShadow: [BoxShadow(color: Color.fromARGB(255, 243, 91, 91),)],
+                      border: Border.all(
+                        color:  Color.fromARGB(255, 243, 91, 91),
+                        style: BorderStyle.solid,
+                        width: 2
+                        ),
+                      ),
+                      
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.spaceAround,
                     children: [
